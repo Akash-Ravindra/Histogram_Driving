@@ -82,8 +82,8 @@ def adaptive_eq(image:np.ndarray, tile_size = 8,bin = 256):
 
 # %%
 size = (int(1224),int(370))
-result_hist = cv.VideoWriter('Question_1_histogram.avi', cv.VideoWriter_fourcc(*'MJPG'),10, size) 
-result_adapt = cv.VideoWriter('Question_1_adaptive_histogram.avi', cv.VideoWriter_fourcc(*'MJPG'),10, size) 
+result_hist = cv.VideoWriter('Question_1_histogram.avi', cv.VideoWriter_fourcc(*'MJPG'),1, size) 
+result_adapt = cv.VideoWriter('Question_1_adaptive_histogram.avi', cv.VideoWriter_fourcc(*'MJPG'),1, size) 
 
 # %%
 import glob
